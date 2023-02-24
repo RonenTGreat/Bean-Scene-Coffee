@@ -93,9 +93,9 @@
   width: 478px;
   height: 261px;
   left: 871px;
-  top: 2185px;
+  top: 1900px;
   z-index: -1;
+  transform: scaleX(-1);
   background: url("../../assets/images/coffee_blast.png");
-  transform: rotate(-180deg);
   background-repeat: no-repeat;
 }
