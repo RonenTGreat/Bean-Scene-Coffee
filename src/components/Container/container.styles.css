@@ -43,3 +43,39 @@
   background-color: transparent;
   outline: 1px var(--cream) solid;
 }
+
+.coffee_blast-1 {
+  position: absolute;
+  width: 498px;
+  height: 272px;
+  top: 1150px;
+  background: url("../../assets/images/coffee_blast.png");
+  background-repeat: no-repeat;
+}
+
+.coffee__style {
+  position: absolute;
+  width: 1180px;
+  height: 542px;
+  left: 93px;
+  top: 1416px;
+}
+
+.coffee__style-heading{
+  text-align: center;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: var(--brown);
+}
+
+.coffee__style-paragraph{
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 34px;
+  margin-right: 5rem;
+  color: #707070;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
