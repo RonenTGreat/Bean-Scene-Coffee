@@ -49,6 +49,7 @@
   width: 498px;
   height: 272px;
   top: 1150px;
+  z-index: -1;
   background: url("../../assets/images/coffee_blast.png");
   background-repeat: no-repeat;
 }
@@ -61,7 +62,7 @@
   top: 1416px;
 }
 
-.coffee__style-heading{
+.coffee__style-heading {
   text-align: center;
   font-weight: 700;
   font-size: 54px;
@@ -69,7 +70,7 @@
   color: var(--brown);
 }
 
-.coffee__style-paragraph{
+.coffee__style-paragraph {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -78,4 +79,23 @@
   color: #707070;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.coffee_blast-2 {
+  position: absolute;
+  width: 478px;
+  height: 261px;
+  left: 871px;
+  top: 2185px;
+  z-index: -1;
+  background: url("../../assets/images/coffee_blast.png");
+  transform: rotate(-180deg);
+  background-repeat: no-repeat;
 }

@@ -1,5 +1,10 @@
 import "./container.styles.css";
 import coffeeBeanImg from "../../assets/images/coffee-beans-flat.png";
+import cappuccino from "../../assets/images/cappuccino.png";
+import latte from "../../assets/images/latte.png";
+import expresso from "../../assets/images/expresso.png";
+import macchiato from "../../assets/images/macchiato.png";
+import Coffee from "../Coffee/coffee.component";
 
 const Container = () => {
   return (
@@ -18,7 +23,27 @@ const Container = () => {
       <section className="coffee__style">
         <h1 className="coffee__style-heading">Enjoy a new blend of coffee style</h1>
         <p className="coffee__style-paragraph">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+
+        <div className="order">
+          <Coffee 
+            img={cappuccino}
+            coffee_header="Cappuccino"
+          />
+          <Coffee 
+            img={latte}
+            coffee_header="Chai Latte"
+          />
+          <Coffee 
+            img={macchiato}
+            coffee_header="Macchiato"
+          />
+          <Coffee 
+            img={expresso}
+            coffee_header="Expresso"
+          />
+        </div>
       </section>
+      <div className="coffee_blast-2"></div>
     </main>
   );
 }
