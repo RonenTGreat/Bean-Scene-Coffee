@@ -1,0 +1,31 @@
+.benefits__container {
+  background: #fff9f1;
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  padding: 3rem 1rem;
+}
+
+.benefits__container:nth-child(1){
+  background-color: #ffeed8;
+}
+
+.benefits__container-img {
+  margin-left: 5rem;
+}
+
+.benefits__container-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--brown);
+}
+
+.benefits__container-paragraph {
+  text-align: center;
+  margin: 0 1.5rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #707070;
+}

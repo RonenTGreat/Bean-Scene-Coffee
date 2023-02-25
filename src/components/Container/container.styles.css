@@ -99,3 +99,18 @@
   background: url("../../assets/images/coffee_blast.png");
   background-repeat: no-repeat;
 }
+
+.coffee__benefits {
+  position: absolute;
+  width: 1180px;
+  height: 612px;
+  left: 93px;
+  top: 2040px;
+}
+
+.benefits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
