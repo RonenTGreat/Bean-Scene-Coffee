@@ -108,9 +108,25 @@
   top: 2040px;
 }
 
-.benefits{
+.benefits {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.benefits-join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.benefits-para{
+  margin-bottom: 0;
+}
+
+.coffee__style-heading{
+  font-size: 30px;
 }

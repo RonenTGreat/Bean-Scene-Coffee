@@ -75,11 +75,11 @@ const Container = () => {
             para="Our Coffee prices are easy to afford"
           />
         </div>
-        <div>
-          <p className="coffee__style-paragraph">Great ideas start with great coffee, Lets help you achieve that</p>
+        <div className="benefits-join">
+          <p className="coffee__style-paragraph benefits-para">Great ideas start with great coffee, Lets help you achieve that</p>
           <h4 className="coffee__style-heading">Get started today.</h4>
+          <a className="info__btn" href="/#">Join Us</a>
         </div>
-        <a className="info__btn" href="/#">Join Us</a>
 
       </section>
     </main>
