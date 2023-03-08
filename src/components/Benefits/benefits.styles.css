@@ -4,12 +4,9 @@
   padding: 3rem 1rem;
 }
 
-.benefits__container:nth-child(1){
-  background-color: #ffeed8;
-}
-
-.benefits__container-img {
-  margin-left: 5rem;
+.benefits__container:hover{
+  cursor: pointer;
+  /* background-color: #ffeed8; */
 }
 
 .benefits__container-header {
