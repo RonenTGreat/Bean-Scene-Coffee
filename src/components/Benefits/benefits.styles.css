@@ -2,12 +2,16 @@
   background: #fff9f1;
   border: 1px solid rgba(249, 192, 106, 0.42);
   padding: 3rem 1rem;
+  transition: all 0.5s ease;
 }
 
 .benefits__container:hover{
   cursor: pointer;
-  /* background-color: #ffeed8; */
+  transform: scale(1.1);
 }
+
+
+
 
 .benefits__container-header {
   text-align: center;
