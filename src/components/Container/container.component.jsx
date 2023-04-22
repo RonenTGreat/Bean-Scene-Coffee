@@ -18,40 +18,41 @@ const Container = () => {
         <div className="info__desc">
           <h1 className="info__header">Discover the best coffee</h1>
           <p className="info__paragraph">
-            Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than others you have ever tasted.
+            Bean Scene is a coffee shop that provides you with quality coffee
+            that helps boost your productivity and helps build your mood. Having
+            a cup of coffee is good, but having a cup of real coffee is greater.
+            There is no doubt that you will enjoy this coffee more than others
+            you have ever tasted.
           </p>
-          <a href="/#" className="info__btn">Learn More</a>
+          <a href="/#" className="info__btn">
+            Learn More
+          </a>
         </div>
         <img src={coffeeBeanImg} alt="coffee beans" />
       </section>
       <div className="coffee_blast-1"></div>
       <section className="coffee__style">
-        <h1 className="coffee__style-heading">Enjoy a new blend of coffee style</h1>
-        <p className="coffee__style-paragraph">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+        <h1 className="coffee__style-heading">
+          Enjoy a new blend of coffee style
+        </h1>
+        <p className="coffee__style-paragraph">
+          Explore all flavours of coffee with us. There is always a new cup
+          worth experiencing
+        </p>
 
         <div className="order">
-          <Coffee
-            img={cappuccino}
-            coffee_header="Cappuccino"
-          />
-          <Coffee
-            img={latte}
-            coffee_header="Chai Latte"
-          />
-          <Coffee
-            img={macchiato}
-            coffee_header="Macchiato"
-          />
-          <Coffee
-            img={expresso}
-            coffee_header="Expresso"
-          />
+          <Coffee img={cappuccino} coffee_header="Cappuccino" />
+          <Coffee img={latte} coffee_header="Chai Latte" />
+          <Coffee img={macchiato} coffee_header="Macchiato" />
+          <Coffee img={expresso} coffee_header="Expresso" />
         </div>
       </section>
       <div className="coffee_blast-2"></div>
       <section className="coffee__benefits">
         <h1 className="coffee__style-heading">Why are we different?</h1>
-        <p className="coffee__style-paragraph">We don’t just make your coffee, we make your day!</p>
+        <p className="coffee__style-paragraph">
+          We don’t just make your coffee, we make your day!
+        </p>
 
         <div className="benefits">
           <Benefits
@@ -76,14 +77,29 @@ const Container = () => {
           />
         </div>
         <div className="benefits-join">
-          <p className="coffee__style-paragraph benefits-para">Great ideas start with great coffee, Lets help you achieve that</p>
+          <p className="coffee__style-paragraph benefits-para">
+            Great ideas start with great coffee, Lets help you achieve that
+          </p>
           <h4 className="coffee__style-heading">Get started today.</h4>
-          <a className="info__btn" href="/#">Join Us</a>
+          <a className="info__btn" href="/#">
+            Join Us
+          </a>
         </div>
+      </section>
 
+      <section className="morning__coffee">
+        <h1 className="morning__coffee-header">Get a chance to have an Amazing morning</h1>
+        <p className="morning__coffee-para">
+          We are giving you are one time opportunity to experience a better life
+          with coffee.
+        </p>
+        <a href="/#" className="header__content_button morning__coffee-btn">Order Now</a>
+      <div className="morning__coffee-overlay"></div>
+      <div className="morning__coffee-cup"></div>
+      <div className="morning_coffee-cofee-bg"></div>
       </section>
     </main>
   );
-}
+};
 
 export default Container;
