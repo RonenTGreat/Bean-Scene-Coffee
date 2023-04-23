@@ -10,6 +10,7 @@ import cup from "../../assets/images/coffee-cup-1.png";
 import price from "../../assets/images/best-price-1.png";
 import Coffee from "../Coffee/coffee.component";
 import Benefits from "../Benefits/benefits.component";
+import Slide from "../Slide/slide.component";
 
 const Container = () => {
   return (
@@ -88,15 +89,27 @@ const Container = () => {
       </section>
 
       <section className="morning__coffee">
-        <h1 className="morning__coffee-header">Get a chance to have an Amazing morning</h1>
+        <h1 className="morning__coffee-header">
+          Get a chance to have an Amazing morning
+        </h1>
         <p className="morning__coffee-para">
           We are giving you are one time opportunity to experience a better life
           with coffee.
         </p>
-        <a href="/#" className="header__content_button morning__coffee-btn">Order Now</a>
-      <div className="morning__coffee-overlay"></div>
-      <div className="morning__coffee-cup"></div>
-      <div className="morning_coffee-cofee-bg"></div>
+        <a href="/#" className="header__content_button morning__coffee-btn">
+          Order Now
+        </a>
+        <div className="morning__coffee-overlay"></div>
+        <div className="morning__coffee-cup"></div>
+        <div className="morning_coffee-cofee-bg"></div>
+      </section>
+
+      <section className="testimonials">
+        <h2 className="testimonials-heading">Our coffee perfection feedback</h2>
+        <p className="testimonials-para">
+          Our customers has amazing things to say about us
+        </p>
+        <Slide />
       </section>
     </main>
   );

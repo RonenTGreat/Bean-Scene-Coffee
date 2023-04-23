@@ -196,10 +196,34 @@
   line-height: 34px;
 }
 
-.morning__coffee-btn{
+.morning__coffee-btn {
   position: absolute;
   left: 97px;
   top: 450px;
   z-index: 2;
 }
 
+.testimonials-heading {
+  position: absolute;
+  width: 764px;
+  height: 72px;
+  left: 301px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: var(--brown);
+}
+
+.testimonials-para {
+  position: absolute;
+  width: 980px;
+  height: 34px;
+  left: 193px;
+  top: 70px;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
