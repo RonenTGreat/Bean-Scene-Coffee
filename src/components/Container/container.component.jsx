@@ -110,6 +110,8 @@ const Container = () => {
           Our customers has amazing things to say about us
         </p>
         <Slide />
+        <div className="coffee_blast-3"></div>
+        <div className="coffee_blast-4"></div>
       </section>
     </main>
   );

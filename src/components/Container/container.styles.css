@@ -227,3 +227,26 @@
   text-align: center;
   color: #707070;
 }
+
+.coffee_blast-3{
+  position: absolute;
+  width: 478px;
+  height: 261px;
+  left: 870px;
+  top: 20px;
+  z-index: 2;
+  transform: scaleX(-1);
+  background: url("../../assets/images/coffee_blast.png");
+  background-repeat: no-repeat;
+}
+
+.coffee_blast-4{
+  position: absolute;
+  width: 478px;
+  height: 261px;
+  left: -26px;
+  top: 470px;
+  z-index: 2;
+  background: url("../../assets/images/coffee_blast_4.png");
+  background-repeat: no-repeat;
+}
