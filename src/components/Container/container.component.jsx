@@ -113,6 +113,20 @@ const Container = () => {
         <div className="coffee_blast-3"></div>
         <div className="coffee_blast-4"></div>
       </section>
+
+      <section className="subcription">
+        <h2 className="subcription-heading">
+          Subscribe to get the Latest News
+        </h2>
+        <p className="subcription-para">
+          Don’t miss out on our latest news, updates, tips and special offers
+        </p>
+        <form action="" className="subcription__form">
+        <input type="email" name="email" placeholder="Enter your mail" className="subscription__form-input" />
+          <button type="submit" className="subcription__form-btn">Suscribe</button>
+        </form>
+          <div className="subcription-overlay"></div>
+      </section>
     </main>
   );
 };
