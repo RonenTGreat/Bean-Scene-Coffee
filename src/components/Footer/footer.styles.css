@@ -1,0 +1,49 @@
+.footer {
+  position: relative;
+  z-index: 0;
+  width: 1348px;
+  top: 2800px;
+  color: white;
+  background: #442808;
+  background-image: url("../../assets/images/fotter_image.png");
+  background-blend-mode: overlay;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer > div{
+  margin-right: 3rem;
+}
+
+.footer-info-header {
+  font-family: "Clicker Script", cursive;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 71px;
+}
+
+.footer-info-para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  width: 380px;
+}
+
+.socials {
+  margin-top: 1.5rem;
+}
+
+.socials > a {
+  margin-right: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+
+ul > li {
+  font-size: 18px;
+  line-height: 42px;
+}
