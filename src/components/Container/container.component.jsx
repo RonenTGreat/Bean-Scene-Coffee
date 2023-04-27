@@ -122,10 +122,17 @@ const Container = () => {
           Don’t miss out on our latest news, updates, tips and special offers
         </p>
         <form action="" className="subcription__form">
-        <input type="email" name="email" placeholder="Enter your mail" className="subscription__form-input" />
-          <button type="submit" className="subcription__form-btn">Suscribe</button>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your mail"
+            className="subscription__form-input"
+          />
+          <button type="submit" className="subcription__form-btn">
+            Suscribe
+          </button>
         </form>
-          <div className="subcription-overlay"></div>
+        <div className="subcription-overlay"></div>
       </section>
     </main>
   );

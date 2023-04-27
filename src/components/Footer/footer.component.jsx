@@ -34,20 +34,36 @@ const Footer = () => {
       <div className="footer-about">
         <h2>About</h2>
         <ul>
-          <li>Menu</li>
-          <li>Features</li>
-          <li>News & Blogs</li>
-          <li>Help & Supports</li>
+          <li>
+            <a href="">Menu</a>
+          </li>
+          <li>
+            <a href="">Features</a>
+          </li>
+          <li>
+            <a href="">News & Blogs</a>
+          </li>
+          <li>
+            <a href="">Help & Supports</a>
+          </li>
         </ul>
       </div>
 
       <div className="footer-company">
         <h2>Company</h2>
         <ul>
-          <li>How we work</li>
-          <li>Terms of service</li>
-          <li>Pricing</li>
-          <li>FAQ</li>
+          <li>
+            <a href="">How we work</a>
+          </li>
+          <li>
+            <a href="">Terms of service</a>
+          </li>
+          <li>
+            <a href="">Pricing</a>
+          </li>
+          <li>
+            <a href="">FAQ</a>
+          </li>
         </ul>
       </div>
 
@@ -57,9 +73,15 @@ const Footer = () => {
           <li>
             Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016
           </li>
-          <li>+1 202-918-2132</li>
-          <li>beanscene@mail.com</li>
-          <li>www.beanscene.com</li>
+          <li>
+            <a href="">+1 202-918-2132</a>
+          </li>
+          <li>
+            <a href="">beanscene@mail.com</a>
+          </li>
+          <li>
+            <a href="">www.beanscene.com</a>
+          </li>
         </ul>
       </div>
     </footer>

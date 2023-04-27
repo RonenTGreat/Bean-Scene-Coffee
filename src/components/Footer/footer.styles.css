@@ -7,12 +7,12 @@
   background: #442808;
   background-image: url("../../assets/images/fotter_image.png");
   background-blend-mode: overlay;
-  padding: 5rem;
+  padding: 4rem;
   display: flex;
   justify-content: center;
 }
 
-.footer > div{
+.footer > div {
   margin-right: 3rem;
 }
 
@@ -38,12 +38,30 @@
   margin-right: 1.5rem;
 }
 
-ul {
+.footer-about{
+  width: 203px;
+}
+
+.footer-company{
+  width: 200px;
+}
+
+.footer-about ul,
+.footer-company > ul,
+.footer-contact-us > ul {
   list-style: none;
   margin-top: 3rem;
+}
+
+.footer-contact-us > ul{
+  margin-top: 0.8rem;
 }
 
 ul > li {
   font-size: 18px;
   line-height: 42px;
+}
+
+div > ul > li > a:hover {
+  color: var(--cream);
 }
