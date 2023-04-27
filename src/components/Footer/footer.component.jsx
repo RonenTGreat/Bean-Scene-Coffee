@@ -3,6 +3,7 @@ import facebook from "../../assets/images/facebook.png";
 import instagram from "../../assets/images/instagram.png";
 import youtube from "../../assets/images/youtube.png";
 import twitter from "../../assets/images/twitter.png";
+import cup_1 from "../../assets/images/coffee-drink-1.png";
 
 const Footer = () => {
   return (
@@ -84,6 +85,8 @@ const Footer = () => {
           </li>
         </ul>
       </div>
+      <img src={cup_1} className="footer-cup-1" />
+      <img src={cup_1} className="footer-cup-2" />
     </footer>
   );
 };

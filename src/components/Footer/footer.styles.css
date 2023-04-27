@@ -1,13 +1,13 @@
 .footer {
   position: relative;
   z-index: 0;
-  width: 1348px;
+  width: 1349.4px;
   top: 2800px;
   color: white;
   background: #442808;
   background-image: url("../../assets/images/fotter_image.png");
   background-blend-mode: overlay;
-  padding: 4rem;
+  padding: 5rem 4rem;
   display: flex;
   justify-content: center;
 }
@@ -38,11 +38,11 @@
   margin-right: 1.5rem;
 }
 
-.footer-about{
+.footer-about {
   width: 203px;
 }
 
-.footer-company{
+.footer-company {
   width: 200px;
 }
 
@@ -53,7 +53,7 @@
   margin-top: 3rem;
 }
 
-.footer-contact-us > ul{
+.footer-contact-us > ul {
   margin-top: 0.8rem;
 }
 
@@ -64,4 +64,16 @@ ul > li {
 
 div > ul > li > a:hover {
   color: var(--cream);
+}
+
+.footer-cup-1 {
+  position: absolute;
+  left: 1px;
+  top: -301px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.footer-cup-2 {
+  position: absolute;
+  left: 1064px;
+  top: -301px;
 }
